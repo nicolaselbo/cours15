@@ -11,7 +11,7 @@ and open the template in the editor.
     </head>
     <body>
         <?php
-        // put your code here
+        // test
         ?>
         <h1>Projet GIT ISFCE DvpWeb</h1>
         <p>Lundi 19 décembre</p>
