@@ -17,8 +17,7 @@ and open the template in the editor.
             echo "Matthieu: Hello World !<br/>";
             echo "World: Ta g... !";
         }
-
-        test();
+        //test();
         ?>
         <h1>Projet GIT ISFCE DvpWeb</h1>
         <p>Lundi 19 décembre</p>
