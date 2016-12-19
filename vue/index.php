@@ -14,5 +14,6 @@
     <ul>
         <li><a href="index.php">Home</a></li>
         <li><a href="index.php?p=listC">Listes des cours</a></li>
+        <li><a href="index.php?p=listE">Listes des élèves</a></li>
     </ul>
 </nav>
