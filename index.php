@@ -7,11 +7,14 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>cours15</title>
     </head>
     <body>
         <?php
         // put your code here
         ?>
+        <h1>Projet GIT ISFCE DvpWeb</h1>
+        <p>Lundi 19 décembre</p>
+        <h2>Test commit</h2>
     </body>
 </html>
