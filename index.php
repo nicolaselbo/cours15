@@ -4,23 +4,32 @@ To change this license header, choose License Headers in Project Properties.
 To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
+
+<?php
+//Controllers
+include './controller/cours.php';
+//Model
+include './model/cours.php';
+?>
+
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>cours15</title>
+        <title></title>
     </head>
     <body>
         <?php
-
-        // put your code here
-        function test() {
-            echo "Matthieu: Hello World !<br/>";
-            echo "World: Ta g... !";
+        $p = (isset($_GET['p'])) ? $_GET['p'] : 'home';
+        
+        switch ($p) {
+            case 'home':
+                include './vue/index.php';
+                break;
+            case 'listC':
+                include './vue/listeCours.php';
+            default:
+                include './vue/404.php';
         }
-        //test();
         ?>
-        <h1>Projet GIT ISFCE DvpWeb</h1>
-        <p>Lundi 19 décembre</p>
-        <h2>Test commit</h2>
     </body>
 </html>

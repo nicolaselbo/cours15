@@ -6,3 +6,7 @@
  * and open the template in the editor.
  */
 
+?>
+
+<h1>ERROR ! </h1>
+<a href="index.php">Go home !</a>
